@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+    <head>
+      <title>Delete Guest</title>
+        <link rel="stylesheet" href="formFormat.css">
+    </head>
+
+    <body>
+    <!-- Provides a link back to the Home page. -->
+    <a href="index.html" class="button">Back to Home</a> <br>
+        <h1>Delete Guest</h1>
+
+        <!-- Directs to the deleteComplete.php when the user presses the Delete button. 
+         Uses post as it is more secure than get. -->
+        <div>
+        <form action="deleteComplete.php" method="post">
+
+            Guest ID: <br>    
+            <!-- Stores the user input for guest ID in a variable called guest_ID. -->
+            <input type="number" name="guest_ID" required/><br>
+            <input type="submit" name="submit" class="pink" value="Delete"/>
+
+        </form>
+        </div>
+
+    </body>
+</html> 

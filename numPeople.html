@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+    <head>
+      <title>See Event Booking for Large Groups</title>
+      <link rel= "stylesheet" href="formFormat.css">
+    </head>
+
+    <body>
+    <!-- Provides a link back to the Home page. -->
+    <br><center><a href="index.html" class="button">Back to Home</a></br></center>
+    <h1>Event Location Inquiry</h1>
+
+    <!-- Directs to the potentialHotels.php when the user presses the Continue button. 
+     Uses get as the transmitted data is not sensitive and will not exceed 2048 characters (max URL length). -->
+    <div>
+    <form action="potentialHotels.php" method="get">
+
+        Enter the number of people:<br>    
+        <!--Stores the user input of number of people in a variable called numPeople.-->
+        <input type="number" name="numPeople" required/><br>
+        <input type="submit" name="submit" class="orange" value="Continue"/>
+
+    </form>
+    </div>
+    
+    </body>
+</html>

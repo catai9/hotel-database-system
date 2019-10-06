@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+    <head>
+      <link rel="stylesheet" href="formFormat.css">
+      <title>Update Guest Information</title>
+    </head>
+    
+    <body>
+        <!-- Provides a link back to the Home page. -->
+        <br><center><a href="index.html" class="button">Back to Home</a></br></center>
+        <h1>Update Guest!</h1>
+        
+        <!-- Directs to the handleGuest.php when the user presses the Next button. 
+        Uses post as it is more secure than get. -->
+        <div>
+        <form action="handleGuest.php" method="post">
+
+            Guest ID: <br>    
+            <!-- Stores the guest ID inputted by the user into a variable named guest_ID. -->
+            <input type="number" name="guest_ID" required/><br>
+            <input type="submit" name="submit" class="pink" value="Next"/>
+
+        </form>
+        </div>
+
+    </body>
+</html>

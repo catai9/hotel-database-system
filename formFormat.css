@@ -1,0 +1,66 @@
+/* Style formatting to enhance the appearance of the user interfaces.
+   Used separate CSS files as there is similarity in the file formatting.*/
+
+h1 {
+    font-family: sans-serif;
+    font-size: 70px;
+    text-align: center;
+}
+
+input[type=text], select, input[type=date], option, input[type=number] {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+input[type=submit] {
+  /*By default, makes all the buttons pink. Else, colour-codes them to their respective option colours on the Home page.*/
+  width: 25%;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  float: right;
+}
+
+.teal{
+    background-color: darkcyan;
+}
+
+.green{
+    background-color: green;
+}
+
+.blue{
+    background-color: blue;
+}
+
+.orange{
+    background-color: darkorange;
+}
+
+.pink{
+   background-color: deeppink;
+}
+
+input[type=submit]:hover {
+  background-color: black;
+}
+
+div {
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 20px 50px 50px 50px;
+  font-size: 20px;
+}
+a {
+    float: right;
+    font-size: 20px;
+}
+ 

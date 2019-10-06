@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+    <head>
+      <title>Sign Up!</title>
+      <link rel="stylesheet" href="formFormat.css">
+    </head>
+    
+    <body>
+        <!-- Provides a link back to the Home page. -->
+        <br><center><a href="index.html" class="button">Back to Home</a></br></center>
+        <h1>Sign Up!</h1>
+        
+         <!-- Directs to the signUpComplete.php when the user presses the Continue button. 
+        Uses post as it is more secure than get. -->
+        <div>
+        <form action="signUpComplete.php" method="post">
+            <!-- Stores the user inputs into variables to be fetched in another file. -->
+            First Name: <br>    
+            <input type="text" name="fname" required/><br>
+            Last Name: <br>   
+            <input type="text" name="lname" required/><br>
+            City: <br>   
+            <input type="text" name="city" required/><br>
+            Street: <br>   
+            <input type="text" name="street" required/><br>
+            Postal Code: <br>   
+            <input type="text" name="pcode" required/><br>
+            Phone Number: <br>   
+            <input type="text" name="phone" required/><br>
+            <input type="submit" name="submit" class="pink" value="Continue"/>
+
+        </form>
+        </div>
+        
+    </body>
+</html>

@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+    <head>
+      <title>Hotel Database Management System</title>
+        <!-- Style formatting to enhance the appearance of the home page. 
+            Inserted the CSS code into the actual html and php files to reduce the number of files submitted.-->
+        <style>
+            h1 {
+                font-family: sans-serif;
+                font-size: 70px;
+            }
+            .button {
+                border: black;
+                border-style: solid;
+                border-width: medium;
+                color: floralwhite;
+                padding: 5% 5%;
+                float: left;
+                text-align: center;
+                text-decoration: none;
+                display: inline-block;
+                font-size: 40px;
+                margin: 1% 2%;
+                cursor: pointer;
+                width: 35%;
+                height: 50%;
+            }
+            .update{
+                background-color: darkcyan;
+            }
+            .check{
+                background-color: green;
+            }
+            .employee{
+                background-color: blue;
+            }
+            .event{
+                background-color: darkorange;
+            }
+            .guest{
+                background-color: deeppink;
+            }
+            img{
+                margin: 5% 0% 0% 12%;
+            }
+        </style>
+    </head>
+
+    <body>
+
+        <h1> <center>Hotel Database Management System </center></h1>
+        
+        <a href="enterBooking.php" class="button update">Update Booking</a>
+        <a href="pickChain.php" class="button check" >Check Hotel Availability </a>
+        <a href="chooseChain.php" class="button employee">See Employee Salary Stats</a>
+        <a href="numPeople.html" class="button event">See Event Booking Options</a>
+        <a href="editGuestInfo.html" class="button guest">Edit Guest Info</a>
+        <img src="hotel.jpg">
+
+    </body>
+</html> 
