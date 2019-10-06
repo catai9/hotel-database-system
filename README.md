@@ -4,8 +4,7 @@ Hotel Database Information Retrieval System for use by internal employees.
 
 An [Entity Relationship Diagram](#entity-relationship) and a [Relational Diagram](#relational-diagram) was generated for this database management system. This project was completed in a team of three for MSCI 346: Database Systems final project.
 
-Link to [Github Code]({{page.github}}).
-Technologies used include {{page.technologies}}. 
+Technologies used include SQL, PHP, HTML, CSS, Brackets. 
 
 ## Application Functionality
 
@@ -24,17 +23,17 @@ This query demonstrates updating the database information. The update booking qu
 
 <p float="center">
 The user first enters their booking ID.
-  <img src="../images/hotel-database-system/updateBooking.png"/>
+  <img src="images/updateBooking.png"/>
 </p>
 
 <p float="center">
 The user is then taken to a pre-populated screen where they can adjust the number of individuals in the room.
-  <img src="../images/hotel-database-system/updateBookingInfo.png"  />
+  <img src="images/updateBookingInfo.png"  />
 </p>
 
 <p float="center">
 After submission, they are either taken to a success or error screen. The success screen includes their booking ID.
-  <img src="../images/hotel-database-system/updateBookingSuccess.png"  />
+  <img src="images/updateBookingSuccess.png"  />
 </p>
 
 [Back to Top](#top)
@@ -46,12 +45,12 @@ This query demonstrates the use of nested query and an aggregate function (count
 
 <p float="center">
   The user first selects their desired hotel and the time intervals for their stay.
-  <img src="../images/hotel-database-system/hotelAvailability.jpg"  />
+  <img src="images/hotelAvailability.jpg"  />
 </p>
 
 <p float="center">
   A list is then shown with the number of available rooms for each room type during that time interval.
-  <img src="../images/hotel-database-system/hotelAvailabilityList.jpg"  />
+  <img src="images/hotelAvailabilityList.jpg"  />
 </p>
 
 [Back to Top](#top)
@@ -63,17 +62,17 @@ This query demonstrates the use of aggregate functions (avg, max, min) and natur
 
 <p float="center">
   The user first selects their desired hotel chain.
-  <img src="../images/hotel-database-system/employeeStatsHome.jpg"  />
+  <img src="images/employeeStatsHome.jpg"  />
 </p>
 
 <p float="center">
   The next screen is prepopulated with the different hotels within that chain.
-  <img src="../images/hotel-database-system/employeeStatsPopulated.jpg"  />
+  <img src="images/employeeStatsPopulated.jpg"  />
 </p>
 
 <p float="center">
   The employee statistics are then shown for the chosen hotel and employee type. The user may select all types of employees if they desire.
-  <img src="../images/hotel-database-system/employeeStatsList.jpg"  />
+  <img src="images/employeeStatsList.jpg"  />
 </p>
 
 [Back to Top](#top)
@@ -85,12 +84,12 @@ This query demonstrates the use of group by and having. The event booking for la
 
 <p float="center">
   The user enters the number of people in the group.
-  <img src="../images/hotel-database-system/eventInquiry.png"  />
+  <img src="images/eventInquiry.png"  />
 </p>
 
 <p float="center">
   A list of hotels is then generated that support the group size.
-  <img src="../images/hotel-database-system/eventInquiryListing.png"  />
+  <img src="images/eventInquiryListing.png"  />
 </p>
 
 [Back to Top](#top)
@@ -102,12 +101,12 @@ This query demonstrates insert, update and delete of an entity. The edit guest i
 
 <p float="center">
   The first screen provides users with different guest management requests.
-  <img src="../images/hotel-database-system/editGuestHome.png"  />
+  <img src="images/editGuestHome.png"  />
 </p>
 
 <p float="center">
   If the user selects sign up, a sign up form is shown for population.
-  <img src="../images/hotel-database-system/editGuestSignUp.png"  />
+  <img src="images/editGuestSignUp.png"  />
 </p>
 
 [Back to Top](#top)
@@ -116,7 +115,7 @@ This query demonstrates insert, update and delete of an entity. The edit guest i
 
 ## Entity Relationship
 <p float="center">
-  <img src="../images/hotel-database-system/Final ER Diagram.png" />
+  <img src="imagesFinal ER Diagram.png" />
 </p>
 
 [Back to Top](#top)
@@ -125,7 +124,7 @@ This query demonstrates insert, update and delete of an entity. The edit guest i
 
 ## Relational Diagrams
 <p float="center">
-  <img src="../images/hotel-database-system/Final Relational Diagram.png" />
+  <img src="images/Final Relational Diagram.png" />
 </p>
 
 [Back to Top](#top)
