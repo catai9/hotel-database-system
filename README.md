@@ -14,6 +14,11 @@ Technologies used include SQL, PHP, HTML, CSS, Brackets.
 #### 4. **[Event Booking](#event-booking)**
 #### 5. **[Edit Guest Info](#edit-guest-info)**
 
+<p float="center">
+The user first enters their booking ID.
+  <img src="images/hotel-database-project.png"/>
+</p>
+
 ## Application Functionality Details
 
 <a name= "update-booking"></a>
@@ -115,7 +120,7 @@ This query demonstrates insert, update and delete of an entity. The edit guest i
 
 ## Entity Relationship
 <p float="center">
-  <img src="imagesFinal ER Diagram.png" />
+  <img src="images/Final ER Diagram.png" />
 </p>
 
 [Back to Top](#top)
