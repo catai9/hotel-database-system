@@ -15,7 +15,6 @@ Technologies used include SQL, PHP, HTML, CSS, Brackets.
 #### 5. **[Edit Guest Info](#edit-guest-info)**
 
 <p float="center">
-The user first enters their booking ID.
   <img src="images/hotel-database-project.png"/>
 </p>
 
